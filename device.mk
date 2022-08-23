@@ -50,15 +50,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
     
-# Boot control HAL
+# Boot control
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-impl \
+    android.hardware.boot@1.1-impl-qti \
+    android.hardware.boot@1.1-impl-qti.recovery \
     android.hardware.boot@1.1-service \
-    android.hardware.boot@1.1-impl-wrapper.recovery \
-    android.hardware.boot@1.1-impl-wrapper \
-    android.hardware.boot@1.1-impl.recovery \
     bootctrl.lahaina \
     bootctrl.lahaina.recovery
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -72,7 +73,6 @@ TARGET_SCREEN_WIDTH := 1080
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom-caf/bootctrl \
     vendor/qcom/opensource/commonsys-intf/display
 	
 # Crypto
