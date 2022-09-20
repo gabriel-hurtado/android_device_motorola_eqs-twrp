@@ -1,6 +1,6 @@
 # TWRP Device configuration for Motorola Edge 30
 
-The Motorola Edge 30 (codenamed _"eqs"_) are high-end smartphones from Motorola.
+The Motorola Edge 30 ultra (codenamed _"eqs"_) are high-end smartphones from Motorola.
 
 It was announced in April 2022. Release date was May 2022.
 
