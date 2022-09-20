@@ -1,6 +1,6 @@
 # TWRP Device configuration for Motorola Edge 30
 
-The Motorola Edge 30 (codenamed _"dubai"_) are high-end smartphones from Motorola.
+The Motorola Edge 30 (codenamed _"eqs"_) are high-end smartphones from Motorola.
 
 It was announced in April 2022. Release date was May 2022.
 
@@ -49,7 +49,7 @@ Then add to a local manifest (if you don't have .repo/local_manifest then make t
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="osm0sis/twrp_abtemplate" path="bootable/recovery/installer" remote="github" revision="master"/>
-  <project name="android_device_motorla_dubai" path="device/motorola/dubai" remote="TeamWin" revision="android-12.1"/>
+  <project name="android_device_motorla_eqs" path="device/motorola/eqs" remote="TeamWin" revision="android-12.1"/>
 </manifest>
 ```
 
@@ -67,6 +67,6 @@ Finally execute these:
 . build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
 export LC_ALL=C
-lunch twrp_dubai-eng
+lunch twrp_eqs-eng
 make adbd bootimage
 ```

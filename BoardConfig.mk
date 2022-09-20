@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/dubai
+DEVICE_PATH := device/motorola/eqs
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -42,7 +42,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := dubai
+TARGET_OTA_ASSERT_DEVICE := eqs
 
 # Kernel
 BOARD_KERNEL_PAGESIZE := 4096
@@ -68,7 +68,7 @@ VENDOR_CMDLINE := "console=ttyMSM0,115200n8 \
                    iptable_raw.raw_before_defrag=1 \
                    ip6table_raw.raw_before_defrag=1 \
                    androidboot.hab.csv=4 \
-                   androidboot.hab.product=dubai \
+                   androidboot.hab.product=eqs \
                    androidboot.hab.cid=50 \
                    firmware_class.path=/vendor/firmware_mnt/image \
                    androidboot.init_fatal_reboot_target=recovery \

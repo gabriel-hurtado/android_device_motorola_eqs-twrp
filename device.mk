@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/motorola/dubai
+LOCAL_PATH := device/motorola/eqs
 
 #SHIPPING API
 PRODUCT_SHIPPING_API_LEVEL := 31
