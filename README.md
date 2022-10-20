@@ -4,7 +4,7 @@ The Motorola Edge 30 ultra (codenamed _"eqs"_) are high-end smartphones from Mot
 
 ## Kernel
 
-Prebuilt kernel from stock ROM user-12-S1RD32.55-67-25c3ec-release-keys
+Prebuilt kernel from stock EQS
 # We should probably change this part ?
 
 
